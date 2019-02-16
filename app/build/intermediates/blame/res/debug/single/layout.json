@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\element_port_powerctrl.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\element_port_powerctrl.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_serial.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_serial.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apitest_detail.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\activity_apitest_detail.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apitest_list.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\activity_apitest_list.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_magstripe.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_magstripe.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_ports.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_ports.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_buttons.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_buttons.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_barcode.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_barcode.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_apitest_cradle.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\fragment_apitest_cradle.xml"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apitest_twopane.xml",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\layout\\activity_apitest_twopane.xml"
+    }
+]

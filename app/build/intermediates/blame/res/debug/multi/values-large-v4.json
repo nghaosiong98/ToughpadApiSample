@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 92,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\values-large\\refs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 92,
+                        "endOffset": 362
+                    }
+                }
+            }
+        ]
+    }
+]

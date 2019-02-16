@@ -1,0 +1,4 @@
+<resources>
+    <!-- API Level 14 only -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"/>
+</resources>

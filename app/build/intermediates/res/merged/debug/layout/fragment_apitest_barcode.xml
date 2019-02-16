@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:useDefaultMargins="true" >
+
+    <TextView
+        android:id="@+id/lblSelectBcr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="0"
+        android:text="@string/text_selectbcr"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spnBcrList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:prompt="@string/text_selectbcr" />
+
+    <ToggleButton
+        android:id="@+id/btnEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="top|fill_vertical"
+        android:layout_row="1"
+        android:checked="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSwTrigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:text="@string/btn_sw_trigger" />
+
+    <Switch
+        android:id="@+id/chkHwTrigger"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:checked="true"
+        android:text="@string/lbl_hw_trigger" />
+
+    <ScrollView
+        android:id="@+id/sclBcrLog"
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="left|fill_vertical"
+        android:layout_row="5"
+        android:layout_rowSpan="1"
+        android:fillViewport="true" >
+
+        <TextView
+            android:id="@+id/txtBcrLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat."
+            android:textSize="20sp" />
+    </ScrollView>
+
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        android:layout_rowSpan="3"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        android:useDefaultMargins="false" >
+
+        <TextView
+            android:id="@+id/txtDeviceInfo"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_row="0"
+            android:text="Firmware Version: ???\nSerial Number: ???" />
+
+        <TextView
+            android:id="@+id/txtIsCharging"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="left"
+            android:layout_row="1"
+            android:text="@string/lbl_is_charging" />
+
+        <TextView
+            android:id="@+id/lblBatteryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:text="@string/txt_battery_charge" />
+
+        <ProgressBar
+            android:id="@+id/prgBatteryCharge"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="2"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="50" />
+
+        <TextView
+            android:id="@+id/txtBatteryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:text="50%" />
+
+    </GridLayout>
+
+</GridLayout>

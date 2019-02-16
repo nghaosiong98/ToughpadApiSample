@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:3:11-58
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:5:11-36
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:7:5-8:46
+	android:targetSdkVersion
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:8:15-44
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:10:5-41:19
+	android:label
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.panasonic.toughpad.android.sample.ApiTestListActivity
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:17:13-85
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.panasonic.toughpad.android.sample.ApiTestDetailActivity
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:27:9-31:20
+	android:label
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:29:13-51
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:28:13-87
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:30:13-110
+	android:value
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:30:71-107
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:30:24-70
+service#com.panasonic.toughpad.android.sample.buttons.ButtonIntentService
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:33:9-40:19
+	android:label
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:35:13-55
+	android:exported
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:34:13-93
+intent-filter#com.panasonic.toughpad.android.api.appbutton.intent.APPBUTTON
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:37:13-39:29
+action#com.panasonic.toughpad.android.api.appbutton.intent.APPBUTTON
+ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:38:17-103
+	android:name
+		ADDED from D:\Panasonic\Toughpad SDK for Android base models\Samples\ToughpadApiSample\app\src\main\AndroidManifest.xml:38:25-101

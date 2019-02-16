@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baudRates">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="dataSizes">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="flowControls">
+        <item>None</item>
+        <item>RTS/CTS</item>
+        <item>XON/XOFF</item>
+    </string-array>
+    <string-array name="parities">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+    </string-array>
+    <string-array name="stopBits">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="app_name">TP API</string>
+    <string name="bcr_type_1d">1D</string>
+    <string name="bcr_type_2d">2D</string>
+    <string name="bcr_type_cam">Camera</string>
+    <string name="bcr_type_unknown">Unknown</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_sw_trigger">Press software trigger</string>
+    <string name="chk_selective_suspend">USB selective suspend</string>
+    <string name="chk_vbus_supply">VBUS supply</string>
+    <string name="dlg_bcr_scanned">Symbology: %1$s\nEncoding: %2$s\nData: %3$s</string>
+    <string name="dlg_enabling_bcr">Enabling Barcode Device</string>
+    <string name="dlg_enabling_msr">Enabling Magnetic Stripe Device</string>
+    <string name="dlg_msr_scanned">Data: %1$s</string>
+    <string name="lbl_api_sample">API Sample</string>
+    <string name="lbl_baudrate">"Baud rate: "</string>
+    <string name="lbl_bcr_type">Barcode type: %1$s</string>
+    <string name="lbl_button_desc">The buttons below will be highlighted as the buttons on the device are pressed.</string>
+    <string name="lbl_button_service">Button API Sample</string>
+    <string name="lbl_charge_na">N/A</string>
+    <string name="lbl_charge_percent">%1$d%%</string>
+    <string name="lbl_cradle_info">(This will value will update automatically through dock/undock events)</string>
+    <string name="lbl_cradle_type">Cradle Type: </string>
+    <string name="lbl_cradle_type_none">None</string>
+    <string name="lbl_cradle_type_reg">Charging only</string>
+    <string name="lbl_cradle_type_usb">Charging w/ USB port</string>
+    <string name="lbl_cradle_type_vehicle">Vehicle</string>
+    <string name="lbl_databits">"Data bits: "</string>
+    <string name="lbl_disabled_device">Disabled: </string>
+    <string name="lbl_enabled_device">Enabled: </string>
+    <string name="lbl_external_device">External device: %1$s</string>
+    <string name="lbl_firmware_version">Firmware version: %1$s</string>
+    <string name="lbl_flowcontrol">"Flow control: "</string>
+    <string name="lbl_gadget_port">Gadget port</string>
+    <string name="lbl_hw_trigger">Hardware trigger</string>
+    <string name="lbl_input">Input</string>
+    <string name="lbl_is_charging">Battery charging: %1$s</string>
+    <string name="lbl_is_charging_no">No</string>
+    <string name="lbl_is_charging_yes">Yes</string>
+    <string name="lbl_micro_usb_port">Micro-USB port</string>
+    <string name="lbl_output">Output</string>
+    <string name="lbl_parity">"Parity: "</string>
+    <string name="lbl_select_msr">"Select Magnetic Stripe Reader: "</string>
+    <string name="lbl_serial_number">Serial number: %1$s</string>
+    <string name="lbl_stopbits">"Stop bits: "</string>
+    <string name="lbl_under_construction">Under construction. Check again later!</string>
+    <string name="log_bcr_scanned">Barcode scanned from %1$s (symbology: %2$s):</string>
+    <string name="log_msr_scanned">Magnetic stripe scanned from %1$s:</string>
+    <string name="sample_appbutton">Buttons</string>
+    <string name="sample_barcode">Barcode</string>
+    <string name="sample_cradle">Cradle</string>
+    <string name="sample_magstripe">Magstripe</string>
+    <string name="sample_ports">USB &amp; gadget</string>
+    <string name="sample_serialport">Serial port</string>
+    <string name="text_selectbcr">Select barcode reader: </string>
+    <string name="text_selectport">"Select serial port: "</string>
+    <string name="title_bcr_error">Barcode Error</string>
+    <string name="title_bcr_scanned">Barcode Scanned!</string>
+    <string name="title_msr_error">Magnetic Stripe Error</string>
+    <string name="title_msr_scanned">Magnetic Stripe Scanned!</string>
+    <string name="title_port_error">Serial Port Error</string>
+    <string name="txt_battery_charge">Battery charge: </string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"/>
+</resources>

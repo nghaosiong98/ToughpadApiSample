@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_button_desc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_released"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="USER"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+        
+        <TextView
+            android:id="@+id/txtA1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_released"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="A1"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtA2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_released"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="A2"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtA3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_released"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="A3"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtSide"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_released"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="SIDE"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+        
+    </LinearLayout>
+
+</LinearLayout>

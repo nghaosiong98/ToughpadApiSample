@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.panasonic.toughpad.android.sample"
+          android:versionCode="1"
+          android:versionName="1.0">
+    
+    <uses-sdk android:minSdkVersion="14" 
+              android:targetSdkVersion="17"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        
+        <activity
+            android:name="com.panasonic.toughpad.android.sample.ApiTestListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- android:parentActivityName="com.panasonic.toughpad.android.sample.ApiTestListActivity" -->
+        
+        <activity
+            android:name="com.panasonic.toughpad.android.sample.ApiTestDetailActivity"
+            android:label="@string/lbl_api_sample">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ApiTestListActivity" />
+        </activity>
+        
+        <service
+            android:name="com.panasonic.toughpad.android.sample.buttons.ButtonIntentService"
+            android:label="@string/lbl_button_service"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.panasonic.toughpad.android.api.appbutton.intent.APPBUTTON"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

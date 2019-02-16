@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="2"
+    android:orientation="vertical"
+    android:rowCount="8" >
+
+    <TextView
+        android:id="@+id/lblSelectPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_row="0"
+        android:layout_rowSpan="1"
+        android:text="@string/text_selectport"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spnPortList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:prompt="@string/text_selectbcr" />
+
+    <ToggleButton
+        android:id="@+id/btnEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:checked="false"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/grpCfg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        android:layout_rowSpan="1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_baudrate" />
+
+        <Spinner
+            android:id="@+id/spnBaudRate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/baudRates"
+            android:prompt="@string/lbl_baudrate" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_databits" />
+
+        <Spinner
+            android:id="@+id/spnDataBits"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/dataSizes"
+            android:prompt="@string/lbl_databits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/grpCfg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="3"
+        android:layout_rowSpan="1" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_stopbits" />
+
+        <Spinner
+            android:id="@+id/spnStopBits"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/stopBits"
+            android:prompt="@string/lbl_stopbits" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_parity" />
+
+        <Spinner
+            android:id="@+id/spnParity"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/parities"
+            android:prompt="@string/lbl_parity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/grpCfg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:layout_rowSpan="1" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_flowcontrol" />
+
+        <Spinner
+            android:id="@+id/spnFlowCtrl"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/flowControls"
+            android:prompt="@string/lbl_flowcontrol" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="5"
+        android:layout_rowSpan="1"
+        android:autoLink="none"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top|left"
+        android:hint="@string/lbl_input"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:scrollHorizontally="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" >
+
+    </EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="7"
+        android:layout_rowSpan="1" >
+
+        <EditText
+            android:id="@+id/txtOutput"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/lbl_output"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:inputType="textNoSuggestions|textShortMessage"
+            android:lines="1"
+            android:scrollHorizontally="true" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send" />
+
+    </LinearLayout>
+
+</GridLayout>

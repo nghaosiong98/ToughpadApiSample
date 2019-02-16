@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\barcode.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\barcode.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\device.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\device.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pressed.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\btn_pressed.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ports.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\ports.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_released.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\btn_released.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\creditcard.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\creditcard.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\magstripe.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\magstripe.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\button.png"
+    },
+    {
+        "merged": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\serial.png",
+        "source": "D:\\Panasonic\\Toughpad SDK for Android base models\\Samples\\ToughpadApiSample\\app\\src\\main\\res\\drawable\\serial.png"
+    }
+]
